@@ -18,7 +18,5 @@ def file_read(file_format: str, file_name: str) -> pd.DataFrame | None:
 
 
 
-
-x,y = file_read('csv', 'bookings.csv')
-print(x)
-
+json_file_name,json_df_1=file_read('json','client_requests.json')
+# if json_file_name =='client_requests.json' :
